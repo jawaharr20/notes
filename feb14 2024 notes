@@ -17,7 +17,7 @@ Multiplexing is used to share the system bus with multiple peripherals, allowing
 A UART (Universal Asynchronous Receiver/Transmitter) peripheral can be implemented using GPIO pins to provide serial communication.
 Each GPIO pin can be configured as either an input or output buffer, depending on the state of the enable line (I for input, O for output).
 In the example you provided, GPIO has 16 pins, and pin 0 is configured as an output buffer, while pins 1 and 2 are input buffer
-
+Enable line 1 for output and 0 for input
 In output mode, the GPIO pin can be configured to have a pull-up or pull-down register to stabilize the input.
 The GPIO pin can be configured in open-drain state (PAI), which means that when the transistor is ON, the pin is pulled to ground.
  To configure the GPIO pin direction mode, you can use the MODER register. For example, 1 in the 11th bit of the MODER register corresponds to general-purpose output mode.
