@@ -1,2 +1,2 @@
 # notes
-daily upload in text file
+will upload dailt class notes
