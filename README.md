@@ -1,2 +1,2 @@
 # notes
-will upload dailt class notes
+will upload daily class notes
