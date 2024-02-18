@@ -1,0 +1,27 @@
+--Io volatile
+
+GP10 -Typedeb
+
+GPIOA-BASE
+
+Structure
+
+*
+
+GPIO Typedef
+
+Onl Stoveture
+
+GPIOB-BASE different address.
+
+=> one structure for different address
+
+dummy The registers above the AHBIENR should be med AHBIENR↑
+
+↓ The registers below riegiters are not needed.
+
+unsigned int*) changing one value to address,
+
+Ree-Typedef 0000000000 →cusing structure we change all the values to addreisk,
+
+-> delay cured to blink
