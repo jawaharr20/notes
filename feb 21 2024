@@ -1,34 +1,48 @@
-Serval Communication
-Papallel Communication
-8 bit daba is tranford One bit at a time(serial)
-8 bit data is transfered the same time(parallel)
+It has serial communication AND Paralle communication.
 
-LSB - Least dignificance bit
-MSB - Most Significance bit
+Serial  =one wire between sender and receiver 
 
-Serial data Communication use two methods.
-* Synchronous clock is transmitted with data
-* Asynchronous no clock transmitted. Transmitter & receiver agree on clock Speed for data transmithion. (Baudrate)
-Simplex
-Data can be transmitied only an received only.
-- one direction only
-eg: FM
+Parallel= many wire between this
 
-Half duplex
-Data can be transmitted in only one way at a time
-Transmitter - Transmitter
-Receiver - receiver
+LSB least significant Bit 
+MSB = most significant But
+In any bits 8 or 16
 
-Full duplex
-Data can be transmitted in both ways.
-eg:UART
+example: 00111011
 
-→In arynchronous transmission, each byte (character) is packed between start and stop bite
+Right side  is LSB
+left Side in MSB
 
-In UART-it (stop bit) can be a bit, 1 bit or 1/2 bit
+10111041
 
-→ Baudrate
-connection speed expereused in bets per second
+Serial Data Communication 2 methach.
 
-UART
-After initialize we will go for Receive or send
+→ Synchronous: clock is. transmitted with The data
+
+ Asynchronous: No dock is transmitled.
+
+[Transmitt and recived  agree on a clock speed for th date transmission] [Badrate
+
+The dock is not connected but it will conneted on signals or some 
+
+UART /USART
+
+USART is full Duplex 
+
+universal Asynchronous Reiver I Transmitter universal synchronous Reciver / transmitter.
+
+Duplex:
+
+Date Tx and Rx. [mobile]   Rx= Reciver.
+
+Simplex:
+
+Data can be transmitter only or vucerad. Cone direction only] [Radio]
+
+Half duplex:
+
+only one cary at a time [walky talky]
+
+Full Duplex:
+
+both ways at a time [mobile]
