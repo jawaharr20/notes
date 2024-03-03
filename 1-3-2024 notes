@@ -1,0 +1,128 @@
+SHELL SCRIPT
+
+shell is a program. A shell swept is a textfile containing a series of commands that are interpreted and executed by a shell program shell scripts are wed to automate tasks, execute commands or perform various operations within the linux environment
+
+
+To run shell script
+
+midir folder name
+
+Vim filename.sh
+
+
+
+#!/bin/bash
+
+echo "Rathinam"
+
+exit o
+
+chmod 777 filename.sh converting to executable
+file
+
+•/filename.sh/./a.out
+
+Library -system calls- Kernel .
+Is it will access the kernel
+PROCESS CREATION
+
+- System () -Library function
+
+fork()
+
+To avoid Zombie Process {
+
+-"wait
+
+System call bc
+
+waitpid()
+
+"ithe ellarme clove the rupude
+
+exec ()
+
+clone()-> clone system call
+
+11 For exactise
+
+To see the content inside folder we use ls -al
+
+→ by using system library we can run the bath command.
+
+=> There are 9 man pages available.
+
+FORK
+
+Fork creates a nemprocers then the new process is referred to us child process, the calling process is called the parrent prours, both parent and child process have separate memory.
+
+To run a shell script wring & program
+
+vim filename.c
+
+#include <stdio.h>
+
+int main()
+
+{
+
+int a=5,6=5;
+
+c=a+b;
+
+printf ("Addition: %d", c);
+
+return 0;
+
+}
+Vim filename.sh
+
+#!/bin/bash
+
+echo "start"
+
+gee filename.c-o filename
+
+/filename
+
+echo" stop"
+
+exit o
+
+chmod 7 filename.sh
+
+/filename.sh
+
+3
+Orphan
+
+Child is running, the parent is terminating
+
+Zombie
+
+parent is running, child is terminating
+
+In zombie proces that we have to kill the parent
+
+
+To avoid zombie procus me ure
+
+zombie creates
+
+wait
+
+system call
+
+silver bullet -9
+
+
+
+To kill zombie
+
+nidt forike)
+
+1) Kill -9
+
+*proces ID"
+
+ps -ax
